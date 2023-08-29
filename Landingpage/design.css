@@ -1,0 +1,430 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    }
+
+.container{
+    background-color: rgb(19,19,19);
+    max-width: 100%;
+    max-height: 60px;
+   
+}
+.dropdown{
+    display: flex;
+    list-style: none;  
+    padding: 20px;  
+}/*
+a{
+   
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    position: relative;
+    bottom: 10px;
+    left: 500px;   
+    color: rgb(235, 73, 8);
+    background-color: rgb(19,19,19); 
+}
+a:hover{
+    color: rgb(235, 207, 52,0.4);
+    font-size: 20px;
+}*/
+.home{
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    position: relative;
+    bottom: 10px;
+    left: 500px;   
+    color: rgb(235, 73, 8);
+    background-color: rgb(19,19,19);
+}
+.home:hover{
+    color: rgb(235, 207, 52,0.4);
+    font-size: 20px;
+}
+.product{
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    position: relative;
+    bottom: 10px;
+    left: 500px;   
+    color: rgb(235, 73, 8);
+    background-color: rgb(19,19,19);
+}
+.product:hover{
+    color: rgb(235, 207, 52,0.4);
+    font-size: 20px;
+}
+.service{
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    position: relative;
+    bottom: 10px;
+    left: 500px;   
+    color: rgb(235, 73, 8);
+    background-color: rgb(19,19,19);
+}
+.service:hover{
+    color: rgb(235, 207, 52,0.4);
+    font-size: 20px;
+}
+.about{
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    position: relative;
+    bottom: 10px;
+    left: 500px;   
+    color: rgb(235, 73, 8);
+    background-color: rgb(19,19,19);
+}
+.about:hover{
+    color: rgb(235, 207, 52,0.4);
+    font-size: 20px;
+}
+
+.image-container{
+    position: relative;
+    top:10px;
+    width: 10px;
+    height: 100px;
+    
+}
+img{
+    position: relative;
+    top: 20px;
+    left: 1000px;
+    width: 260px;
+    height: 230px;
+    cursor: pointer;
+    
+}
+.moon{
+    position: absolute;
+    top: 20px;
+    left: 1200px;
+    width: 40px;
+    height: 30px;
+    border: none;
+    color: rgb(241, 238, 238);
+    background: none;
+    font-size: 20px;
+}
+.moon:hover{
+    cursor: pointer;
+    color: rgb(224, 141, 148);
+  
+}
+.bell{
+    position: absolute;
+    top: 20px;
+    left: 1250px;
+    width: 40px;
+    height: 30px;
+    border: none;
+    color: rgb(241, 238, 238);
+    border-radius: 30px;
+    background: none;
+    font-size: 20px;
+}
+.bell:hover{
+    cursor: pointer;
+    color: rgb(224, 141, 148);
+}
+.house{
+    position: absolute;
+    top: 20px;
+    left: 1300px;
+    width: 40px;
+    height: 30px;
+    border: none;
+    color: rgb(241, 238, 238);
+    border-radius: 30px;
+    background: none;
+    font-size: 20px;
+
+}
+.house:hover{
+    cursor: pointer;
+    color: rgb(224, 141, 148);
+
+}
+.back{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 40px;
+    height: 30px;
+    border: none;
+    color: rgb(241, 238, 238);
+    background: none;
+    font-size: 20px;
+
+}
+.back:hover{
+    cursor: pointer;
+    color: rgb(224, 141, 148);
+}
+.front{
+    position: absolute;
+    top: 20px;
+    left: 80px;
+    width: 40px;
+    height: 30px;
+    border: none;
+    color: rgb(241, 238, 238);
+    background: none;
+    font-size: 20px;
+}
+.front:hover{
+    cursor: pointer;
+    color: rgb(224, 141, 148);
+  
+}
+/*
+img:hover{
+    width: 300px;
+    height: 200px;
+    
+}*/
+.content{
+    position:absolute;
+    font-size: larger;
+    top: 100px;
+    left: 50px; 
+    list-style: none;  
+}
+.top{
+    font-size:x-large;
+    text-indent: 0pt;
+
+}
+.call{
+    text-indent: 2pt;
+    color:blue;
+}
+.call:hover{
+    color: red;
+    font-size: 24px;
+    cursor: pointer;
+}
+.list{
+    font-weight: lighter;
+    text-indent: 10pt;
+
+}
+.para{
+    font-weight: normal;
+    text-indent: 30pt;
+}
+
+#fom{
+    position: absolute;
+    background-color: blueviolet;
+    top: 400px;
+    left: 990px;
+    width: 300px;
+    height: 400px;
+    border-radius: 60px 20px;
+}
+#fom:hover{
+    background-color: rgb(228, 90, 10);
+}
+#name{
+    position: relative;
+    top: 40px;
+    left: 60px;
+}
+#lb1{
+    position: relative;
+    top: 40px;
+    left: 40px;
+}
+#email{
+    position: absolute;
+    top: 120px;
+    left: 100px;
+}
+#lb2{
+    position: absolute;
+    top: 120px;
+    left: 40px;
+}
+
+#country{
+    position: absolute;
+    top: 80px;
+    left: 100px;
+    width: 45px;
+    border-radius: 0px;
+}
+#contact{
+    position: absolute;
+    top: 80px;
+    left: 147px;
+    width: 130px;
+    border-radius: 0px;
+}
+#lb3{
+    position: absolute;
+    top: 80px;
+    left: 40px;
+}
+
+#lb4{
+    position: absolute;
+    top: 180px;
+    left: 35px;
+}
+
+#feedback{
+    position: absolute;
+    top: 160px;
+    left: 100px;
+    width: 170px;
+    height: 90px;
+}
+
+#overbutton{
+    position: absolute;
+    width: 80px;
+    height: 40px;
+    top: 330px;
+    left: 120px;
+    border-radius: 50px;
+    cursor: pointer;
+    background-color: rgb(171, 184, 212); 
+    
+}
+#overbutton:hover{
+    color: rgb(70, 62, 62);
+    box-shadow: 1px 1px 1px 3px rgba(224, 93, 203, 0.9),
+                1px 0px 1px 3px rgba(82, 202, 122, 0.9);
+
+}
+.mail{
+    position: absolute;
+    top: 0px;
+    left: 10px;
+    width: 40px;
+    height: 30px;
+    border: none;
+    color: rgb(12, 12, 12);
+    background: none;
+    font-size: 20px;
+}
+.mail:hover{
+    cursor: pointer;
+    color: rgb(255, 13, 33);
+  
+}
+.mid{
+    position: absolute;
+    background: none;
+    color: blue;
+    top: 3px;
+    left: 50px;
+}
+
+.linkedin{
+    position: absolute;
+    top: 40px;
+    left: 10px;
+    width: 40px;
+    height: 30px;
+    border: none;
+    color: rgb(12, 12, 12);
+    background: none;
+    font-size: 20px;
+}
+.linkedin:hover{
+    cursor: pointer;
+    color: rgb(255, 13, 33);
+}
+
+.lid{
+    position: absolute;
+    background: none;
+    color: blue;
+    top: 45px;
+    left: 50px;
+}
+
+
+.github{
+    position: absolute;
+    top: 80px;
+    left: 10px;
+    width: 40px;
+    height: 30px;
+    border: none;
+    color: rgb(12, 12, 12);
+    background: none;
+    font-size: 20px;
+}
+.github:hover{
+    cursor: pointer;
+    color: rgb(255, 13, 33); 
+}
+.gid{
+    position: absolute;
+    background: none;
+    color: blue;
+    top: 85px;
+    left: 50px;
+}
+.location{
+    position: absolute;
+    top: 120px;
+    left: 10px;
+    width: 40px;
+    height: 30px;
+    border: none;
+    color: rgb(12, 12, 12);
+    background: none;
+    font-size: 20px;
+}
+.location:hover{
+    cursor: pointer;
+    color: rgb(255, 13, 33);
+  
+}
+.ltn{
+    position: absolute;
+    top: 130px;
+    left: 50px;
+    color: blue;
+}
+.qoute{
+    position: absolute;
+    top: 60px;
+    left: 600px;
+    font-size: 25px;
+    color: rgb(187, 52, 52);
+    font-style: italic;
+    box-shadow: 1px 2px 0px rgb(96, 136, 218),
+                0px 2px 1px rgb(218, 96, 208);
+                
+                 
+}
+.qoutes{
+    position: absolute;
+    top: 120px;
+    left: 990px;
+    font-size: 25px;
+    box-shadow: 3px 4px 4px rgb(143, 126, 51),
+                0px 2px 1px rgb(38, 131, 69);
+    
+}
+footer{
+    position: relative;
+    background-color: rgb(250, 204, 135);
+    width: 100%;
+    height:180px;
+    top: 1000px;
+}
