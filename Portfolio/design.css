@@ -1,0 +1,709 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+nav{
+    
+    width: 100%;
+    height: 50px;
+    background-color: rgba(255, 0, 0, 0.2);
+    
+}
+nav ul{
+    
+    display: block;
+    list-style: none;
+    text-align: right;
+    padding: 10px;
+    margin-right: 60px;
+    font-size: larger;    
+}
+
+nav ul li{
+    
+    display: inline;
+    text-decoration: none;
+    padding: 15px;  
+    text-decoration: none;
+}
+nav ul li a{
+    text-decoration: none;
+    transition: 2s;
+    
+    
+}
+nav ul li a:hover{
+    color:rgb(252, 106, 8);
+    font-size: larger;
+       
+   
+}
+
+.entry{
+    position: absolute;
+    width: 400px;
+    height: 600px;
+    border: none;
+    margin: 10px;
+}
+
+
+.first{
+    background-color: rgba(227, 252, 4, 0.3);
+    position: absolute;
+    display: flex;
+    left: 425px;
+    top: 50px;
+    width: 923px;
+    height: 650px;
+    animation-name: example;
+    animation-duration: 4s;
+    animation: example 4s ease infinite;
+}
+@keyframes example {
+    from{
+        background-color: rgba(227, 252, 4, 0.3);
+    }
+    to{
+        background-color: rgba(4, 252, 227, 0.3); 
+    }
+    
+}
+#hi{
+    position: absolute;
+    top: 90px;
+    left: 90px;
+    opacity: 1; 
+/*  transition: opacity 6.5s ease-in-out ; */
+}
+/*
+#hi:hover{
+    opacity: 0.5;
+}
+*/
+#name{
+    position: absolute;
+    top: 160px;
+    left: 90px;
+/*  animation: slide 2s linear infinite; */
+}
+/*
+@keyframes slide {
+    0% {
+        transform: translateY(0);
+        
+    }
+    100% {
+        transform: translateY(100px); 
+        
+    }
+}
+*/
+
+#about{
+    position: absolute;
+    top: 200px; 
+    font-size: larger;
+    margin-top: 10px;
+    padding: 10px;
+    left: 80px;
+}
+
+.linkedin{
+    position: absolute;
+    left: 200px;
+    font-size: 30px;
+    color: blue;
+    background-color: rgba(227, 252, 4, 0);
+    top: 400px;
+    border: none;
+    
+ 
+}
+.github{
+    position: absolute;
+    left: 300px;
+    font-size: 30px;
+    color: rgb(0, 0, 2);
+    background-color: rgba(227, 252, 4, 0);
+    top: 400px;
+    border: none;
+    
+}
+.email{
+    position: absolute;
+    left: 400px;
+    font-size: 30px;
+    color: rgb(209, 7, 7);
+    background-color: rgba(227, 252, 4, 0);
+    top: 400px;
+    border: none;   
+}
+.linkedin:hover,.github:hover, .email:hover{
+    font-size: 40px;    
+    background-color: gray;
+}
+.hire{
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    left: 600px;
+    top: 550px;
+    background-color: rgba(5, 3, 109, 0.7);
+    border: none;
+    border-style: solid;
+    border-radius: 40px;
+    box-shadow: 2px 2px 4px rgb(0, 0, 0, 0.4);
+}
+.hire:hover{
+    background-color: darkgreen;
+}
+.pro{
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    left: 800px;
+    top: 550px;
+    background-color: rgba(5, 3, 109, 0.7);
+    border: none;
+    border-style: solid;
+    border-radius: 40px;
+    box-shadow: 2px 2px 4px rgb(0, 0, 0, 0.4);
+
+}
+.pro:hover{
+    background-color: darkgreen;
+}
+
+.intern{
+    position: absolute;
+    background-color: rgba(255, 165, 0, 0.2);
+    width: 100%;
+    height: 360px;
+    top: 700px;
+}
+.intern h1{
+    padding: 10px;
+    color: rgb(241, 6, 6, 0.7);
+}
+.co1{
+    position: absolute;
+    left: 100px;
+    top: 10px;
+    padding: 40px;
+    color: #0056b3;
+}
+.du1{
+    position: absolute;
+    left: 100px;
+    top: 60px;
+    padding: 40px;
+    color: #0056b3;
+}
+.ro1{
+    position: absolute;
+    left: 100px;
+    top: 110px;
+    padding: 40px;
+    color: #0056b3;
+}
+.mo1{
+    position: absolute;
+    left: 100px;
+    top: 160px;
+    padding: 40px;
+    color: #0056b3;
+}
+.ci1{
+    position: absolute;
+    left: 100px;
+    top: 210px;
+    padding: 40px;
+    color: #0056b3;
+}
+.cr1{
+    position: absolute;
+    left: 100px;
+    top: 260px;
+    padding: 40px;
+    color: #0056b3;
+}
+.co2{
+    position: absolute;
+    left: 700px;
+    top: 10px;
+    padding: 40px;
+    color: #0056b3;
+}
+.du2{
+    position: absolute;
+    left: 700px;
+    top: 60px;
+    padding: 40px;
+    color: #0056b3;
+}
+.ro2{
+    position: absolute;
+    left: 700px;
+    top: 110px;
+    padding: 40px;
+    color: #0056b3;
+}
+.mo2{
+    position: absolute;
+    left: 700px;
+    top: 160px;
+    padding: 40px;
+    color: #0056b3;
+}
+.ci2{
+    position: absolute;
+    left: 700px;
+    top: 210px;
+    padding: 40px;
+    color: #0056b3;
+}
+.cr2{
+    position: absolute;
+    left: 700px;
+    top: 260px;
+    padding: 40px;
+    color: #0056b3;
+}
+.proj{
+    position: absolute;
+    display: flex;
+    background-color: rgba(238, 153, 113, 0.2);
+    height: 299px;
+    width: 100%;
+    padding: 10px; 
+    top: 1060px;  
+}
+.pr{
+    color: rgb(241, 6, 6);
+}
+.land{
+    position: absolute;
+    padding: 10px;
+    top: 20px;
+    left: 30px;
+    border:solid 2px;
+    margin: 40px;
+    width: 300px;
+    height: 200px;
+}
+.land:hover{
+    background-color: lightgrey;
+    
+}
+.avenger{
+    position: absolute;
+    padding: 10px;
+    top: 20px;
+    left: 420px;
+    border:solid 2px;
+    margin: 40px;
+    width: 300px;
+    height: 200px;
+    
+}
+.avenger:hover{
+    background-color: lightgrey;
+    
+}
+.tic_tac_toe{
+    position: absolute;
+    padding: 10px;
+    top: 20px;
+    left: 820px;
+    border:solid 2px;
+    margin: 40px;
+    width: 300px;
+    height: 200px;
+}
+.tic_tac_toe:hover{
+    background-color: lightgrey;
+    
+}
+
+.m1{
+    position: absolute;
+    display: flex;
+    background-color: rgba(9,240,82,0.2);
+    height: 360px;
+    width: 100%;
+    top: 1359px;
+    padding: 20px;
+    
+    
+}
+.sk{
+    color: red;
+}
+.tech{
+    position: absolute;
+    left: 230px;
+    top: 20px;
+}
+.sin{
+    position: absolute;
+    color: rgb(6, 65, 175);
+    background-color: rgba(233, 154, 6, 0.3);
+    width: 500px;
+    height: 260px;
+    top: 40px;
+    margin: 20px;
+    border-radius: 30px;
+    box-shadow: 2px 3px 1px,
+                3px 2px 1px;
+  
+}
+.py{
+    position: absolute;
+    padding: 4px; 
+    left: 40px;  
+    top: 20px;
+}
+.r1{
+    position: absolute;
+    padding: 4px;
+    left: 120px;
+    top: 20px;
+    width: 300px;
+   
+}
+.hl{
+    position: absolute;
+    padding: 4px;
+    left: 40px;
+    top: 70px; 
+}
+.r2{
+    position: absolute;
+    padding: 4px;
+    left: 120px;
+    top: 70px;
+    width: 300px;
+}
+.cs{
+    position: absolute;
+    padding: 4px;
+    left: 40px;
+    top: 120px;  
+}
+.r3{
+    position: absolute;
+    padding: 4px;
+    left: 120px;
+    top: 120px;
+    width: 300px;
+}
+.ml{   
+    position: absolute;
+    padding: 4px;
+    left: 40px;
+    top: 170px;  
+}
+.r4{
+    position: absolute;
+    padding: 4px;
+    left: 120px;
+    top: 170px;
+    width: 300px;
+}
+.pp{
+    position: absolute;
+    padding: 4px;
+    left: 40px;
+    top: 220px;  
+}
+.r5{
+    position: absolute;
+    padding: 4px;
+    left: 120px;
+    top: 220px;
+    width: 300px;
+}
+.non-tech{
+    position: absolute;
+    left: 885px;
+    top: 20px;
+}
+.sinr{
+    position: absolute;
+    color: rgb(6, 65, 175);
+    background-color: rgba(233, 154, 6, 0.3);
+    width: 500px;
+    height: 260px;
+    top: 40px;
+    left: 670px;
+    margin: 20px;
+    border-radius: 30px;
+    box-shadow: 2px 3px 1px,
+                3px 2px 1px;
+  
+}
+.el{
+    position: absolute;
+    padding: 4px; 
+    left: 40px;  
+    top: 20px;
+}
+.r11{
+    position: absolute;
+    padding: 4px;
+    left: 180px;
+    top: 20px;
+    width: 300px;
+   
+}
+.tl{
+    position: absolute;
+    padding: 4px;
+    left: 40px;
+    top: 70px; 
+}
+.r21{
+    position: absolute;
+    padding: 4px;
+    left: 180px;
+    top: 70px;
+    width: 300px;
+}
+.pg{
+    position: absolute;
+    padding: 4px;
+    left: 40px;
+    top: 120px;  
+}
+.r31{
+    position: absolute;
+    padding: 4px;
+    left: 180px;
+    top: 120px;
+    width: 300px;
+}
+.cn{   
+    position: absolute;
+    padding: 4px;
+    left: 40px;
+    top: 170px;  
+}
+.r41{
+    position: absolute;
+    padding: 4px;
+    left: 180px;
+    top: 170px;
+    width: 300px;
+}
+.lu{
+    position: absolute;
+    padding: 4px;
+    left: 40px;
+    top: 220px;  
+}
+.r51{
+    position: absolute;
+    padding: 4px;
+    left: 180px;
+    top: 220px;
+    width: 300px;
+}
+
+.edu{
+    position:absolute;
+    background-color: rgba(255, 182, 193, 0.4);
+    width: 100%;
+    height: 400px;
+    top: 1719px;
+}
+
+.deg{
+    color: rgb(55, 9, 180);
+    margin: 10px;
+}
+#mf{
+    position: absolute;
+    font-size: 20px;
+    padding: 10px;
+    left: 30px;
+    top: 60px;
+}
+.ms{
+    position: absolute;
+    font-size: 20px;
+    padding: 10px;
+    top: 60px;
+    left: 60px;
+}
+.yr1{
+    position: absolute;
+    font-size: 20px;
+    padding: 10px;
+    top: 100px;
+    left: 60px;
+}
+.clg1{
+    position: absolute;
+    font-size: 20px;
+    padding: 10px;
+    top: 140px;
+    left: 60px;
+}
+.grd1{
+    position: absolute;
+    font-size: 20px;
+    padding: 10px;
+    top: 180px;
+    left: 60px;
+}
+#bf{
+    position: absolute;
+    font-size: 20px;
+    padding: 10px;
+    left: 30px;
+    top: 230px;
+}
+.bs{
+    position: absolute;
+    font-size: 20px;
+    padding: 10px;
+    top: 230px;
+    left: 60px;
+}
+.yr2{
+    position: absolute;
+    font-size: 20px;
+    padding: 10px;
+    top: 270px;
+    left: 60px;
+}
+.clg2{
+    position: absolute;
+    font-size: 20px;
+    padding: 10px;
+    top: 310px;
+    left: 60px;
+}
+.grd2{
+    position: absolute;
+    font-size: 20px;
+    padding: 10px;
+    top: 350px;
+    left: 60px;
+}
+.cer{
+    position: absolute;
+    color: rgb(55, 9, 180);
+    top: 10px;
+    left: 700px;
+}
+.on {
+    position: absolute;
+    left: 600px;
+    top: 50px;
+    padding: 20px; 
+    width: 500px;   
+}
+.pon{
+    position: absolute;
+    font-size: 20px;
+    padding: 10px;
+    top: 10px;
+    left: 10px;
+}
+.bon{
+    position: absolute;
+    font-size: 20px;
+    padding: 10px;
+    top: 50px;
+    left: 10px;
+}
+.non{
+    position: absolute;
+    font-size: 20px;
+    padding: 10px;
+    top: 90px;
+    left: 10px;
+}
+.don{
+    position: absolute;
+    font-size: 20px;
+    padding: 10px;
+    top: 140px;
+    left: 10px;
+}
+.son{
+    position: absolute;
+    font-size: 20px;
+    padding: 10px;
+    top: 180px;
+    left: 10px;
+}
+.jon{
+    position: absolute;
+    font-size: 20px;
+    padding: 10px;
+    top: 220px;
+    left: 10px;
+}
+
+.container {
+    position: absolute;
+    background-color: #fff;
+    top: 2115px;
+    width: 400px;
+    height: 500px;
+    left: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+form{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    
+}
+
+
+input[type="text"],
+input[type="email"],
+textarea{
+    padding: 10px;
+    margin: 5px 0; /* Adjust the top and bottom margins for input fields */
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+    width: 100%;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 3px;
+    font-size: 18px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+footer{
+    position:absolute;
+    background-color: rgba(4, 235, 16, 0.3);
+    width: 100%;
+    height: 100px;
+    top: 2660px;
+}
+
+footer p{
+    position: absolute;
+    padding: 10px;
+    top: 35px;
+    left: 500px;
+}
