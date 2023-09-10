@@ -1,0 +1,76 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+.container{
+    position: relative;
+    width: 600px;
+    height: 250px;
+    background-color: rgba(166, 179, 158, 0.5);
+    padding: 40px;
+    left: 300px;
+    top: 60px;
+    border-radius: 60px;
+    box-shadow: 0 0 10px rgba(0, 0, 8, 0.5);
+    animation-name: example;
+    animation: example 4s infinite;
+}
+@keyframes example {
+    0%{
+        background-color: lightcoral;
+    }
+    25%{
+        background-color: lightgreen;
+    }
+    50%{
+        background-color: lightblue;
+    }
+    75%{
+        background-color: lightyellow;
+    }
+    100%{
+        background-color: lightsalmon;
+    }
+    
+}
+.output{
+    position: absolute;
+    top: 240px;
+    left: 610px;
+    
+}
+.convert{
+    position: absolute;
+    top: 230px;
+    left: 310px;
+    width: 120px;
+    height: 40px;
+    border-radius: 10px;
+    border: solid;
+   
+}
+
+
+#temprature{
+    border: 1px;
+    border-radius: 10px;
+    height: 30px;
+}
+
+#temprature:focus{
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+#which{
+    border: 1px;
+    border-radius: 10px;
+    height: 30px;
+}
+
+#which:focus{
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
